@@ -90,3 +90,59 @@ span{
     font-size: 0.84rem;
     font-weight: 700;
 }
+/* panel styling  */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.hero-section{
+    background-image: url(herolagu.jpg);
+    height: 300px;
+    width: 100%vw;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.hero-msg{
+    color: black;
+    background-color: #f3f3f3;
+    width: 80%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+/* shop section */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(130, 130, 152);
+    
+}
+.box{
+    border: 2px solid aqua;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
